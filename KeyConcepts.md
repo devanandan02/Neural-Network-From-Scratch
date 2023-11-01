@@ -7,8 +7,6 @@
 <br><br>
 <ins>Dense Layer</ins> : It connects n input neurons to a set of m output neurons. The value of n is the number of features and m is the numbers of classes for classification problem and for regression m = 1. Dense layer is a fully connected layer
 <br><br>
-<ins>Activation Layer</ins> :
-<br><br>
-<ins>Activation Function</ins> :
+<ins>Activation Layer</ins> : It refers to the application of an activation function to the output of a neuron or a group of neurons in a neural network layer. Activation functions introduce non-linearities into the network, enabling it to learn complex patterns in the data.
 <br><br>
 <ins>Loss Function</ins> :

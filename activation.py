@@ -1,14 +1,19 @@
 import numpy as np
-from layer import Layer
 
-class Activation(Layer):
-    def __init__(self, activation, activation_prime):
-        self.activation = activation
-        self.activation_prime = activation_prime
+class TanhActivation:
+    def forward(self, inputs):
+        self.inputs = inputs
+        self.output = np.tanh(inputs)
+        return self.output
 
-    def forward(self, input):
-        self.input = input
-        return self.activation(self.input)
+    def backward(self, error):
+        return error * (1 - np.square(self.output))
 
-    def backward(self, output_gradient, learning_rate):
-        return np.multiply(output_gradient, self.activation_prime(self.input))
+class SoftmaxActivation:
+    def forward(self, inputs):
+        exp_values = np.exp(inputs - np.max(inputs, axis=1, keepdims=True))
+        probabilities = exp_values / np.sum(exp_values, axis=1, keepdims=True)
+        return probabilities
+
+    def backward(self, error):
+        return error

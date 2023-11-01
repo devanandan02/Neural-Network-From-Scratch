@@ -1,5 +1,4 @@
-<h5>Terms</h5>
-<br>
+<h3>Terms</h3>
 <ins>Layer</ins> : Layers are like different levels of processing that information goes through. There are 3 types of layers input layer, hidden layers, and output layer.
 <br><br>
 <ins>Forward Propogation</ins> : It is a process of receiveing weighted input, transforms it with a set of mostly non-linear functions and then passes these values as output to the next layer.

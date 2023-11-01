@@ -14,7 +14,7 @@ The important step is 3 because it's where the learning happens
 <br>
 <h5>Defenitions</h5>
 <br>
-<u>Layer</u> : Layers are like different levels of processing that information goes through. There are 3 types of layers input layer, hidden layers, and output layer.
+<ins>Layer</ins> : Layers are like different levels of processing that information goes through. There are 3 types of layers input layer, hidden layers, and output layer.
 <br><br>
 <u>Forward Propogation</u> : It is a process of receiveing weighted input, transforms it with a set of mostly non-linear functions and then passes these values as output to the next layer.
 <br><br>

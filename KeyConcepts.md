@@ -1,5 +1,5 @@
-Machine Learning Steps(basic)
-<br><br>
+<h3>Machine Learning Steps(basic)</h3>
+<br>
 1. Feed input -> Data flow from layer to layer -> Retrieve output
 <br>
 2. Calculate the error (cost function/ loss function)

@@ -12,28 +12,26 @@ The steps involved are<br><br>
 A few things to note:
 <br><br>
 <ul>
-<li>The number of hidden node is set to 8.<li>
-<li>The learning rate (learning_rate) is set to 0.01.</li>
-<li>The number of epochs is set to 1000. Depending on the problem, you might need more or fewer epochs for training.</li>
+<li>The number of hidden node is set to <b>8</b>.<li>
+<li>The learning rate is set to <b>0.01</b>.</li>
+<li>The number of epochs is set to <b>1000</b>. Depending on the problem, you might need more or fewer epochs for training.</li>
 <li>The loss function used is categorical cross-entropy since it is a multi-class classification problem.</li>
 <li>The number of hidden node, learning rate and number of epochs are hyperparameter that can be tuned for better performance</li>
 </ul>
 <br><br>
 <h3>Data</h3>
 <br><br>
-The data used is iris data set which contains 4 features and based on the features it is classified into 3 classes.
+The data used is iris data set which contains <b>4</b> features and based on the features it is classified into <b>3</b> classes.
 <br>
-The features are are standardized to have mean as 0 and standard deviation as 1.
+The features are are standardized to have mean as <b>0</b> and standard deviation as <b>1</b>.
 <br>
 The labels are encode using one hot encoding, which represent a categorical variable as a group of binary variables, where each binary variable represents one category.
 <br>
-The feature(X variable) and classes(Y variable) are splitted into two sets in the ratio 8:2, i.e., 80% for training and 20% for testing.(The splitted data are X_train,X_test,Y_train, and Y_test)
+The feature(<b>X variable</b>) and classes(<b>Y variable</b>) are splitted into two sets in the ratio <b>8:2</b>, i.e., <b>80%</b> for training and <b>20%</b> for testing.(The splitted data are <b>X_train,X_test,Y_train,</b> and <b>Y_test</b>)
 <br><br>
 <h3>Training Process</h3>
-<br><br>
-This process repeats for 1000 times as we initialized the value of epoch as 1000.
+This process repeats for <b>1000</b> times as we initialized the value of epoch as <b>1000</b>.
 <br><br>
 <h3>Evaluation</h3>
-<br><br>
-The model has attained an accuracy of 93.33%. By proper tuning of hyperparameters we can increase the accuracy.
+The model has attained an accuracy of <b>93%</b>. By proper tuning of hyperparameters we can increase the accuracy.
 

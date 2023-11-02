@@ -1,7 +1,7 @@
 <h3>Code Explanation</h3>
 The Iris_class_prediction file implements a neural network with an input layer, one hidden layer and an output layer to classsify the iris dataset.
 <br><br>
-The steps involved are<br><br>
+The steps involved are<br>
 1.Data Loading<br>
 2.Data Preprocessing<br>
 3.Neural Network Architecture<br>
@@ -17,7 +17,7 @@ A few things to note:
 <li>The loss function used is categorical cross-entropy since it is a multi-class classification problem.</li>
 <li>The number of hidden node, learning rate and number of epochs are hyperparameter that can be tuned for better performance</li>
 </ul>
-<br><br>
+<br>
 <h3>Data</h3>
 The data used is iris data set which contains <b>4</b> features and based on the features it is classified into <b>3</b> classes.
 <br>

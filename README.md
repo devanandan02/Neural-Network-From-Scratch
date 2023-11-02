@@ -1,18 +1,12 @@
 <h2>Neural Network From Scratch</h2>
 <br>
-Machine Learning Steps(basic)
+Neural Network is a type of Machine Learning rocess called Deep Learning which uses interconnected nodes or neurons in a layered structure, that resembles human neuron system.
 <br><br>
-1. Feed input -> Data flow from layer to layer -> Retrieve output
-<br>
-2. Calculate the error (cost function/ loss function)
-<br>
-3. Adjust the parameter using the optimization function
-<br>
-4. Start again
-<br><br>
-The important step is 3 because it's where the learning happens
+The KeyConcepts.md file contains the brief definitions of all the important concepts in Neural Network.
 <br><br>
 The .ipynb file contains the implementation of a neural network model applied to the Iris dataset. The code demonstrates the neural network architecture, training process, and evaluation metrics specific to the Iris dataset.
+<br><br>
+The .md file contains the code explantion of iris class prediction.
 <br><br>
 <h3>Contributing</h3>
 <br>

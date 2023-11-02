@@ -1,3 +1,15 @@
+Machine Learning Steps(basic)
+<br><br>
+1. Feed input -> Data flow from layer to layer -> Retrieve output
+<br>
+2. Calculate the error (cost function/ loss function)
+<br>
+3. Adjust the parameter using the optimization function
+<br>
+4. Start again
+<br><br>
+The important step is 3 because it's where the learning happens
+<br><br>
 <h3>Terms</h3>
 <ins>Layer</ins> : Layers are like different levels of processing that information goes through. There are 3 types of layers input layer, hidden layers, and output layer.
 <br><br>

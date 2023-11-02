@@ -23,6 +23,8 @@ Activation Layer : It refers to the application of an activation function to the
 <br><br>
 Loss Function : It is a mathematical function to calculate the difference between predicted output and actual target value. It helps to quantify how well the model performed. It is also called cost function.
 <br><br>
+Learning Rate : The learning rate is a hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated.
+<br><br>
 Epochs : An epoch refers to one complete cycle through the entire training dataset. During each epoch, the neural network processes every training example once and updates the model's parameters (weights and biases) based on the computed errors.
 <br><br>
 StandardScaler : It is a preprocessing technique used in machine learning to standardize the features of a dataset. It scales the features such that the distribution of each feature has a mean value of 0 and a standard deviation of 1.

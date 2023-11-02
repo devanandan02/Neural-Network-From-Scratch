@@ -4,9 +4,9 @@
 <br>
 2. Calculate the error (cost function/ loss function)
 <br>
-3. Adjust the parameter using the optimization function
+3. Adjust the parameter using the optimization function so to reduce the error
 <br>
-4. Start again
+4. Repeat again until the error is minimized
 <br><br>
 The important step is 3 because it's where the learning happens
 <br><br>

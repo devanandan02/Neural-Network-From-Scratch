@@ -1,4 +1,4 @@
-<h3>Machine Learning Steps(basic)</h3>
+<h3>Basic Deep Learning Steps</h3>
 <br>
 1. Feed input -> Data flow from layer to layer -> Retrieve output
 <br>

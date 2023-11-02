@@ -10,9 +10,8 @@ The steps involved are<br><br>
 6.Accuracy Calculation<br>
 <br>
 A few things to note:
-<br><br>
 <ul>
-<li>The number of hidden node is set to <b>8</b>.<li>
+<li>The number of hidden node is set to <b>8</b>.</li>
 <li>The learning rate is set to <b>0.01</b>.</li>
 <li>The number of epochs is set to <b>1000</b>. Depending on the problem, you might need more or fewer epochs for training.</li>
 <li>The loss function used is categorical cross-entropy since it is a multi-class classification problem.</li>
@@ -20,7 +19,6 @@ A few things to note:
 </ul>
 <br><br>
 <h3>Data</h3>
-<br><br>
 The data used is iris data set which contains <b>4</b> features and based on the features it is classified into <b>3</b> classes.
 <br>
 The features are are standardized to have mean as <b>0</b> and standard deviation as <b>1</b>.

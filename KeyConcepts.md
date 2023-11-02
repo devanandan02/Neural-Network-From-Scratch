@@ -21,4 +21,4 @@ The important step is 3 because it's where the learning happens
 <br><br>
 <ins>Activation Layer</ins> : It refers to the application of an activation function to the output of a neuron or a group of neurons in a neural network layer. Activation functions introduce non-linearities into the network, enabling it to learn complex patterns in the data.
 <br><br>
-<ins>Loss Function</ins> :
+<ins>Loss Function</ins> : It is a mathematical function to calculate the difference between predicted output and actual target value. It helps to quantify how well the model performed. It is also called cost function.

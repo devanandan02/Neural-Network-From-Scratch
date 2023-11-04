@@ -28,6 +28,18 @@ The labels are encode using one hot encoding, which represent a categorical vari
 The feature(<b>X variable</b>) and classes(<b>Y variable</b>) are splitted into two sets in the ratio <b>8:2</b>, i.e., <b>80%</b> for training and <b>20%</b> for testing.(The splitted data are <b>X_train,X_test,Y_train,</b> and <b>Y_test</b>)
 <br><br>
 <h3>Training Process</h3>
+When we pass data to the train_neural_network function,<br><br> 
+1. The <b>X varibale</b> is forward propagated through the hidden layer(dense layer), where the weights and bias is added. The weights and bias are inialized with random values and zeros respectively in the dense layer. Then it is passed through the activation and then given as the input to the output layer.
+<br><br>
+The activation function used here is Hyperbolic Tangent "tanh". It is a smooth, differentiable function that incorporates nonlinearity into the network which means that the output of this function is not a simple linear function of its input. The tanh function squashes its input to the range <b>[−1,1]<b>, which is zero-centered. When the outputs are zero-centered, the gradients during backpropagation do not all have the same sign. This property can help the model converge faster.
+<br><br>
+2. In the output layer(dense layer) the output of the tanh activation function are foward propogated, i.e., weights and bias is added, same as earlier the weights and bias are inialized with random values and zeros respectively in the dense layer. Then it is passed to the softmax activation function. And the output from softmax function is passed to the loss function.
+<br><br>
+3. In the loss function the loss value is calculated by using Categorical Cross-Entropy. The total loss for a dataset is the average of individual sample losses. For a batch of samples, you calculate the loss for each sample, sum them up, and then divide by the number of samples in the batch.
+<br>loss = sum(true_class*log(predicted_probality))/number of X_variables<br>
+<br><br>
+5. After finding loss value, the goal is to reduce the loss value by adjusting the weights and biases, here comes the backward-propagation. 
+<br><br>
 This process repeats for <b>1000</b> times as we initialized the value of epoch as <b>1000</b>.
 <br><br>
 <h3>Evaluation</h3>
